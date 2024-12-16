@@ -1,0 +1,119 @@
+﻿.topMenu {
+    height: 55px;
+    background: #3db2d8;
+    border-radius: 6px;
+
+}
+
+.topBarLeft .topBarLogo {
+    height: 90px;
+    width: 90px;
+}
+
+.topBarLeft{
+    display: flex;
+    justify-content: space-between; /* Distribute elements evenly */
+    width: 30%; /* Ensure the container spans the full width */
+    padding-top: 10px;
+
+}
+
+#reg{
+    float: right;
+    font-size: 13px;
+    color: #ffffff;
+    height: 34px;
+    padding: 20px 15px 0px 15px;
+    display: block;
+    text-shadow: 1px 1px #2f91b2;
+    text-decoration: none;
+}
+
+.topMenu ul {
+    list-style: none;
+}
+
+.topMenu li {
+    float: left;
+    display: block;
+}
+
+
+.topMenu li.starli {
+    padding: 15px 10px 0px 15px;
+    cursor: pointer
+}
+
+.topMenu li, .topMenu li a {
+    font-family: BPG Arial, Sylfaen;
+}
+
+.topMenu li a {
+    font-size: 13px;
+    color: #ffffff;
+    height: 34px;
+    padding: 20px 15px 0px 15px;
+    display: block;
+    text-shadow: 1px 1px #2f91b2;
+    text-decoration: none;
+}
+
+.topMenu li a:hover, .topMenu li.sel a {
+    background: white;
+    border-bottom: 1px solid #dfdfdf;
+    background-position: center;
+    color: #434343;
+    text-shadow: 1px 1px #fbfbfb;
+}
+
+.vipEntries {
+    clear:both;
+}
+
+.vipEntries table th {
+    font-weight:bold;
+    font-size:13px;
+    text-align:left;
+    letter-spacing:0.5px;
+    color:#292929;
+    height:37px;
+}
+
+
+.vipEntries table td {
+    height:33px;
+    color:#019acc;
+    border-bottom:1px solid #eaeaea;
+}
+
+.vipEntries table td a {
+    color:#019acc;
+    text-decoration:none;
+}
+
+.vipEntries table tr:hover {
+    background:#f6f6f6;
+}
+
+.content {
+    margin-top:35px;
+}
+
+.content h1 {
+    font-size:21px;
+    color:#727272;
+}
+
+.content p {
+    font-size:12px;
+    color:#5a5a5a;
+    /*line-height:17px;*/
+    /*width:900px;*/
+    padding:10px 0px;
+}
+
+
+
+
+
+
